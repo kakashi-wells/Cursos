@@ -1,6 +1,6 @@
-def salaryWeek(hrs, salaryHr, job):
+def salaryWeek(hrs, salaryHr):
     salary = hrs * salaryHr
     salary = salary * 7
-    print("El sueldo de un ", job, "es ", salary)
-salaryWeek(8, 284, "Doctor")
-salaryWeek(4, 10, "Jardinero")
+    return salary
+print(salaryWeek(8, 284))
+print(salaryWeek(4, 10))
