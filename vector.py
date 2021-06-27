@@ -1,4 +1,4 @@
 numbers = [1,2,3,4,5,6]
 
-for position in range(0,len(numbers)):
+for position, value in enumerate(numbers):
     print("posicion",position, "",numbers[position])
