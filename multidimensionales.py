@@ -3,4 +3,6 @@ shoes = {
 "Converse":["tenis 3","tenis 4","tenis 5"],
 "Vans":["tenis 6", "tenis 7", "tenis 8"]}
 
-print(shoes["Converse"][1])
+for key, list in shoes.items():
+    for value in list:
+        print ("EStos son los tenis", key, value)
