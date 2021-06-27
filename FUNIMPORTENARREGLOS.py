@@ -1,10 +1,10 @@
 colors = ["Verde", "Morado", "Negro", "Verde"]
 numbers = {1, 2, 3, 4, 5}
 person = {"name":"kakashi", "lastname": "wells", "age":24}
-
+animal = {"name":"hawk","colors":"white","age":4}
 for value in colors:
     print(value)
 
-person.update({"lastname":"hatake"})
+person.update(animal)
 for key,value in person.items():
     print(key,"",value)
