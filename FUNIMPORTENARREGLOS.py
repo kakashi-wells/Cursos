@@ -1,7 +1,7 @@
 colors = ["Verde", "Morado", "Negro"]
 person = {"name":"kakashi", "lastname": "wells", "age":24}
 
-colors.append("Rojo")
+colors.insert(1,"Rojo")
 for value in colors:
     print(value)
 
