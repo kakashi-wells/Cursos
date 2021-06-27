@@ -1,7 +1,7 @@
-colors = ["Verde", "Morado", "Negro"]
+colors = ["Verde", "Morado", "Negro", "Verde"]
 person = {"name":"kakashi", "lastname": "wells", "age":24}
 
-colors.remove("Verde")
+colors.count("Verde")
 for value in colors:
     print(value)
 
