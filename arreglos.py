@@ -1,3 +1,4 @@
-colores = ["Verde", "Morado", "Negro"]
+colors = ["Verde", "Morado", "Negro"]
+person = {"name":"kakashi", "lastname": "wells", "age":24}
 
-print(colores[1])
+print(person.get("lastname"))
