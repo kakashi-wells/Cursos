@@ -1,2 +1,2 @@
-color = "Morado"
-print(color.replace("o","a"))
+color = "Codigo Facilito"
+print(color.split("-"))
