@@ -8,3 +8,5 @@ print(even)
 def isEven(numbers):
     return numbers % 2 == 0
 print(list(filter(isEven,numbers)))
+
+print(list(filter((lambda number: number %2 ==0),numbers)))
