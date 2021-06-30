@@ -1,2 +1,2 @@
-numbers = [3,4,5,2,1,6,8]
-print(sum(numbers))
+color = "Morado"
+print(color.lower())
