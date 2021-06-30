@@ -1,2 +1,2 @@
 color = "Morado"
-print(color.replace("Morado","Negro"))
+print(color.replace("o","a"))
