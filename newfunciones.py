@@ -1,1 +1,1 @@
-print(round(4/3))
+print(min(2,3,4,6))
