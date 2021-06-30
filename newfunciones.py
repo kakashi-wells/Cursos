@@ -1,2 +1,2 @@
 color = "   Morado    "
-print(color.strip())
+print(color)
