@@ -1,2 +1,2 @@
 color = "Morado"
-print(color.lower())
+print(color.upper())
